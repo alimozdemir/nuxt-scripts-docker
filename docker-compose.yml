@@ -1,0 +1,7 @@
+services:
+  webapp:
+    build:
+      context: .
+      dockerfile: Dockerfile #here you specify the name of your Dockerfile file
+    ports:
+      - "80:3000"
